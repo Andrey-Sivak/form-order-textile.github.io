@@ -5,11 +5,211 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="x-ua-compatible" content="ie=edge">
   <title></title>
-  <link rel="stylesheet" type="text/css" href="dist/css/all.css">
+  <link rel="stylesheet" type="text/css" href="dist/css/all2.0.css">
   <script type="text/javascript" src="dist/js/main.js"></script>
 </head>
 <body>
 
+  <div class="form-wrap container">
+    <div>
+      <p class="form__caption">Онлайн заказ печати
+        <span class="tol-tip"></span>
+      </p>
+      <p class="form__sub-caption">Минимальная стоимость заказа-250 Руб</p>
+    </div>
+    <form action="#" class="form">
+      <div class="parameters-wrap">
+        <div class=" parameters">
+          <div class="parameters__select-wrap">
+            <div class="input-wrap select-wrap">
+              <select name="format" id="format" class="parameters__select input">
+                <option value="13x8" class="parameters__select_item">13x8</option>
+                <option value="13x8" class="parameters__select_item">13x8</option>
+                <option value="13x8" class="parameters__select_item">13x8</option>
+                <option value="13x8" class="parameters__select_item">13x8</option>
+                <option value="13x8" class="parameters__select_item">13x8</option>
+              </select>
+              <label for="format" class="label">Формат</label>
+            </div>
+            <span class="tol-tip"></span>
+          </div>
+          <div class="parameters__select-wrap">
+            <div class="input-wrap select-wrap">
+              <select name="paper" id="paper" class="parameters__select input">
+                <option value="Шелк(Silk)" class="parameters__select_item">Шелк(Silk)</option>
+                <option value="Шелк(Silk)" class="parameters__select_item">Шелк(Silk)</option>
+                <option value="Шелк(Silk)" class="parameters__select_item">Шелк(Silk)</option>
+                <option value="Шелк(Silk)" class="parameters__select_item">Шелк(Silk)</option>
+                <option value="Шелк(Silk)" class="parameters__select_item">Шелк(Silk)</option>
+              </select>
+              <label for="paper" class="label">Бумага</label>
+            </div>
+            <span class="tol-tip"></span>
+          </div>
+          <div class="parameters__select-wrap">
+            <div class="input-wrap select-wrap">
+              <select name="field" id="field" class="parameters__select input">
+                <option value="С полями" class="parameters__select_item">С полями</option>
+                <option value="С полями" class="parameters__select_item">С полями</option>
+                <option value="С полями" class="parameters__select_item">С полями</option>
+                <option value="С полями" class="parameters__select_item">С полями</option>
+                <option value="С полями" class="parameters__select_item">С полями</option>
+              </select>
+              <label for="field" class="label">Поля</label>
+            </div>
+            <span class="tol-tip"></span>
+          </div>
+        </div>
+        <div class=" parameters">
+          <div class="load-file-wrap">
+            <label for="load-file" class="load-file__label">Загрузить файлы <br> JPEG,PNG</label>
+            <input type="file"
+                   name="file"
+                   id="load-file"
+                   class="load-file"
+                   hidden>
+          </div>
+        </div>
+      </div>
+
+      <div class="form-group coast-info">
+        <div class="form-group__header">
+          <p class="form-group__caption">13х8 Шелк с полями
+            <span class="form-group__caption_amount">2</span>
+          </p>
+        </div>
+        <div class="form-group__body">
+          <div class="products">
+            <div class="product-item">
+              <span class="product-item__remove"></span>
+              <p class="product-item__caption">Название название название</p>
+              <img src="./dist/img/img.jpg" alt="img" class="product-item__img">
+              <div class="product-item__amount">
+                <p class="product-item__amount_label">Количество:</p>
+                <div class="counter">
+                  <span class="counter__btn counter__min"></span>
+                  <input type="text"
+                         min="1"
+                         class="counter__val"
+                         value="1">
+                  <span class="counter__btn counter__plus"></span>
+                </div>
+              </div>
+            </div>
+            <div class="product-item">
+              <span class="product-item__remove"></span>
+              <p class="product-item__caption">Название название название</p>
+              <img src="./dist/img/img.jpg" alt="img" class="product-item__img">
+              <div class="product-item__amount">
+                <p class="product-item__amount_label">Количество:</p>
+                <div class="counter">
+                  <span class="counter__btn counter__min"></span>
+                  <input type="text"
+                         min="1"
+                         class="counter__val"
+                         value="1">
+                  <span class="counter__btn counter__plus"></span>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="coast">
+            <p class="coast__caption">Стоимость заказа:</p>
+            <p class="coast__val">250 руб.</p>
+            <button type="button" class="btn">Далее</button>
+          </div>
+        </div>
+      </div>
+
+      <div class="form-group person-info">
+        <div class="form-group__header">
+          <p class="form-group__caption">Данные покупателя</p>
+        </div>
+        <div class="form-group__body">
+          <div class="person-info__main-block">
+            <div class="input-wrap">
+              <input type="text" class="input" id="name">
+              <label for="name" class="label">Ваше имя</label>
+            </div>
+            <div class="input-wrap">
+              <input type="text" class="input" id="phone">
+              <label for="phone" class="label">Ваш номер телефона</label>
+            </div>
+            <div class="input-wrap">
+              <input type="text" class="input" id="email">
+              <label for="email" class="label">Ваш E-mail</label>
+            </div>
+            <div class="input-wrap select-wrap">
+              <select name="delivery" id="delivery" class="parameters__select input">
+                <option value="С полями" class="parameters__select_item">Курьером</option>
+                <option value="С полями" class="parameters__select_item">Самовывоз</option>
+              </select>
+              <label for="delivery" class="label">Cпособ доставки</label>
+            </div>
+            <div class="help-bg-block"></div>
+          </div>
+          <div class="person-info__delivery-block">
+            <p class="delivery-block__caption">Способ доставки</p>
+            <div class="input-wrap">
+              <input type="text" class="input" id="street">
+              <label for="street" class="label">Улица</label>
+            </div>
+            <div class="input-wrap">
+              <input type="text" class="input" id="house">
+              <label for="house" class="label">Дом</label>
+            </div>
+            <div class="input-wrap">
+              <input type="text" class="input" id="flat">
+              <label for="flat" class="label">Квартира/офис</label>
+            </div>
+          </div>
+          <div class="person-info__comment">
+            <div class="input-wrap">
+              <textarea class="input" id="comment"></textarea>
+              <label for="comment" class="label">Ваш комментарий</label>
+            </div>
+            <div class="help-block"></div>
+          </div>
+          <div class="person-info__coast-table">
+            <div class="coast-table__header">
+              <p class="coast-table__col-1">Формат</p>
+              <p class="coast-table__col-2">Количество</p>
+              <p class="coast-table__col-3">Цена</p>
+              <p class="coast-table__col-4">Сумма</p>
+            </div>
+            <div class="coast-table__row">
+              <p class="coast-table__col-1">13х8 Шелк с полями</p>
+              <div class="coast-table__col-2">
+                <div class="counter">
+                  <span class="counter__btn counter__min"></span>
+                  <input type="text"
+                         min="1"
+                         class="counter__val"
+                         value="2">
+                  <span class="counter__btn counter__plus"></span>
+                </div>
+              </div>
+              <p class="coast-table__col-3">135 руб</p>
+              <p class="coast-table__col-4">270 руб</p>
+            </div>
+            <div class="coast-table__row">
+              <p class="coast-table__col-1">Курьерская доставка</p>
+              <p class="coast-table__col-2"></p>
+              <p class="coast-table__col-3"></p>
+              <p class="coast-table__col-4">250 руб</p>
+            </div>
+            <div class="coast-table__footer">
+              <p class="coast-table__col-1">Итого</p>
+              <p class="coast-table__col-2"></p>
+              <p class="coast-table__col-3"></p>
+              <p class="coast-table__col-4">530 руб</p>
+            </div>
+          </div>
+        </div>
+        <button class="btn" type="button">Купить</button>
+      </div>
+    </form>
+    </div>
 
 
 </body>

@@ -1,0 +1,192 @@
+@media(max-width: 1140px) {
+    .form-wrap {
+        max-width: 95%;
+        padding: 30px 20px;
+    }
+    .parameters:last-of-type {
+        max-width: 45%;
+    }
+    .load-file-wrap {
+        width: 100%;
+    }
+    .load-file__label {
+        width: 90%;
+        margin: 0 auto;
+    }
+    .coast {
+        max-width: 40%;
+    }
+    .products {
+        max-width: 60%;
+    }
+    .product-item {
+        max-width: 45%;
+        margin-right: 0;
+    }
+    .coast__caption,
+    .delivery-block__caption {
+        font-size: 30px;
+    }
+    .person-info__delivery-block {
+        max-width: 45%;
+        width: 100%;
+    }
+    .person-info__main-block {
+        max-width: 50%;
+        width: 100%;
+    }
+    .parameters {
+        width: 50%;
+    }
+}
+@media(max-width: 1020px) {
+    .form__caption {
+        font-size: 45px;
+        margin-bottom: 50px;
+    }
+    .parameters,
+    .parameters:last-of-type {
+        max-width: unset;
+        width: 100%;
+        margin-bottom: 20px;
+    }
+    .parameters .input-wrap {
+        max-width: unset;
+    }
+    .parameters:last-of-type {
+
+    }
+    .load-file__label {
+        height: 100px;
+        padding-top: 30px;
+        background-size: 60px;
+        background-position: 80% center;
+    }
+    .coast-info .form-group__body {
+        flex-wrap: wrap;
+    }
+    .products,
+    .coast {
+        max-width: 100%;
+    }
+    .coast {
+        margin: 0 auto;
+    }
+    .coast__caption {
+        margin-bottom: 15px;
+    }
+    .coast__val {
+        margin-bottom: 20px;
+    }
+    .person-info__main-block {
+        max-width: 100%;
+        margin-bottom: 20px;
+        padding: 40px 30px;
+        border-bottom-left-radius: 15px;
+        border-bottom-right-radius: 15px;
+    }
+    .person-info__delivery-block {
+        max-width: 100%;
+        margin-bottom: 20px;
+        padding: 40px 30px;
+    }
+    .person-info__comment  {
+        border-top-left-radius: 15px;
+        padding: 40px 30px;
+    }
+    .delivery-block__caption {
+        margin-bottom: 20px;
+    }
+    .help-bg-block,
+    .help-block {
+        display: none;
+    }
+    .person-info__coast-table {
+        font-size: 15px;
+    }
+    .coast-table__row .counter {
+        min-width: 80px;
+    }
+}
+@media(max-width: 760px) {
+    .form__caption {
+        font-size: 25px;
+        margin-bottom: 20px;
+    }
+    .form__sub-caption {
+        font-size: 15px;
+        margin-bottom: 10px;
+    }
+    .parameters {
+        padding: 20px;
+    }
+    .input {
+        font-size: 15px;
+    }
+    .products {
+        justify-content: space-around;
+    }
+    .product-item {
+        max-width: 100%;
+        margin-bottom: 20px;
+    }
+    .load-file__label {
+        background-image: unset;
+    }
+    .coast {
+        padding-top: 0;
+    }
+    .coast__caption {
+        font-size: 25px;
+    }
+    .coast__val {
+        font-size: 30px;
+    }
+    .btn {
+        padding: 15px 0;
+    }
+    .person-info__main-block,
+    .person-info__delivery-block,
+    .person-info__comment {
+        padding: 20px;
+    }
+    .delivery-block__caption {
+        font-size: 22px;
+    }
+    .coast-table__col-1 {
+        flex: 0 0 43%;
+    }
+    .coast-table__col-2 {
+        flex: 0 0 40%;
+    }
+    .coast-table__col-3 {
+        display: none;
+    }
+    .tol-tip {
+        width: 20px;
+        height: 20px;
+    }
+}
+@media(max-width: 420px) {
+    .form__caption {
+        padding-right: 30px;
+        font-size: 20px;
+    }
+    .form-wrap {
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+    .product-item__amount_label {
+        font-size: 15px;
+    }
+    .counter {
+        max-width: 70px;
+    }
+    .coast__caption {
+        font-size: 20px;
+    }
+    .form-group__body {
+        padding-left: 15px;
+        padding-right: 15px;
+    }
+}
